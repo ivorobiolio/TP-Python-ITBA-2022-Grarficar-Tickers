@@ -30,3 +30,7 @@ def ordenar_fecha(date_yyyy_mm_dd_format):
     date = '-'.join(x)
     return date
 
+def today():
+    hoy = str(datetime.today().strftime('%Y-%m-%d'))
+    return hoy
+
